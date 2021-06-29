@@ -22,7 +22,8 @@ class Ball():
     def move(self):
         if self.moving == True:
             self.x += self.x_vel*self.time_passed
-            self.y += self.y_vel*self.time_passed+0.5*self.acceleration_y*self.time_passed**2
+            #self.y += self.y_vel*self.time_passed+0.5*self.acceleration_y*self.time_passed**2
+            self.y += self.y_vel*self.time_passed
 
            
     def draw(self):
